@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+import 'package:obdcan_app/core/assets_path.dart';
 class SplashPage extends StatelessWidget {
   const SplashPage({super.key});
 
@@ -5,7 +7,7 @@ class SplashPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Image.asset(AssetsPath.imgObdCan,width: 96,high: 96),
+        child: Image.asset(AssetsPath.imgObdCan,width: 96,height: 96),
         ),
       );
   }
